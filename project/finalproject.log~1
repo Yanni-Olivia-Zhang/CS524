@@ -1,0 +1,49 @@
+
+--- Job finalproject.gms Start 12/18/22 00:41:48 41.2.0 5110e5ff DEX-DEG x86 64bit/macOS
+--- Applying:
+    /Library/Frameworks/GAMS.framework/Versions/41/Resources/gmsprmun.txt
+    /Users/yannizhang/Library/Preferences/GAMS/gamsconfig.yaml
+--- GAMS Parameters defined
+    Input /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    PageSize 0
+    ScrDir /Users/yannizhang/Desktop/CS524/project/225a/
+    SysDir /Library/Frameworks/GAMS.framework/Versions/41/Resources/
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) G220907|0002AS-GEN
+          UW-Madison, CS Dept., Fall 2022, Prof. Ferris              DCE850
+          /Users/yannizhang/Library/Application Support/GAMS/gamslice.txt
+          License Admin: Michael C. Ferris, ferris@cs.wisc.edu             
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 2 core(s), and 4 thread(s) available
+GAMS 41.2.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+--- Starting compilation
+--- finalproject.gms(26) 3 Mb
+--- . fulldata.csv(1144) 3 Mb
+--- finalproject.gms(32) 3 Mb
+--- . cam1.csv(55) 3 Mb
+--- finalproject.gms(38) 3 Mb
+--- . cam2.csv(465) 4 Mb
+--- finalproject.gms(44) 4 Mb
+--- . cam3.csv(244) 4 Mb
+--- finalproject.gms(56) 4 Mb 1 Error
+*** Error 149 in /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    Uncontrolled set entered as constant
+--- finalproject.gms(71) 4 Mb 2 Errors
+*** Error 257 in /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    Solve statement not checked because of previous errors
+--- finalproject.gms(81) 4 Mb 3 Errors
+*** Error 257 in /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    Solve statement not checked because of previous errors
+--- finalproject.gms(91) 4 Mb 4 Errors
+*** Error 257 in /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    Solve statement not checked because of previous errors
+--- finalproject.gms(101) 4 Mb 5 Errors
+*** Error 257 in /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    Solve statement not checked because of previous errors
+--- finalproject.gms(101) 4 Mb 5 Errors
+*** Status: Compilation error(s)
+--- Job finalproject.gms Stop 12/18/22 00:41:48 elapsed 0:00:00.051

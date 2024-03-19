@@ -1,0 +1,198 @@
+
+--- Job finalproject.gms Start 12/18/22 00:41:53 41.2.0 5110e5ff DEX-DEG x86 64bit/macOS
+--- Applying:
+    /Library/Frameworks/GAMS.framework/Versions/41/Resources/gmsprmun.txt
+    /Users/yannizhang/Library/Preferences/GAMS/gamsconfig.yaml
+--- GAMS Parameters defined
+    Input /Users/yannizhang/Desktop/CS524/project/finalproject.gms
+    PageSize 0
+    ScrDir /Users/yannizhang/Desktop/CS524/project/225a/
+    SysDir /Library/Frameworks/GAMS.framework/Versions/41/Resources/
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) G220907|0002AS-GEN
+          UW-Madison, CS Dept., Fall 2022, Prof. Ferris              DCE850
+          /Users/yannizhang/Library/Application Support/GAMS/gamslice.txt
+          License Admin: Michael C. Ferris, ferris@cs.wisc.edu             
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 2 core(s), and 4 thread(s) available
+GAMS 41.2.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+--- Starting compilation
+--- finalproject.gms(26) 3 Mb
+--- . fulldata.csv(1144) 3 Mb
+--- finalproject.gms(32) 3 Mb
+--- . cam1.csv(55) 3 Mb
+--- finalproject.gms(38) 3 Mb
+--- . cam2.csv(465) 4 Mb
+--- finalproject.gms(44) 4 Mb
+--- . cam3.csv(244) 4 Mb
+--- finalproject.gms(101) 4 Mb
+--- Starting execution: elapsed 0:00:00.030
+--- finalproject.gms(1964) 5 Mb
+--- Generating QCP model camp3all
+--- finalproject.gms(1979) 7 Mb
+---   244 rows  247 columns  1,200 non-zeroes
+---   731 nl-code  243 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 2.100E+01] - Zero values observed as well
+--- Bound     [min, max] : [        NA,        NA]
+--- Matrix    [min, max] : [ 8.418E-04, 6.399E+02] - Zero values observed as well
+--- finalproject.gms(1979) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.039
+
+CONOPT 3         41.2.0 5110e5ff Nov 14, 2022          DEG x86 64bit/macOS    
+
+ 
+ 
+    C O N O P T 3   version 3.17N
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.7800000000E+02 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  244
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    1451.09445834
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      6   4        9.6748166202E+02 7.1E+01     3 1.0E+00    1 F  T
+      8   4        8.5626105855E+02 4.6E-09     3
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model camp3all
+--- Executing after solve: elapsed 0:00:00.106
+--- finalproject.gms(1982) 5 Mb
+--- Generating QCP model camp31
+--- finalproject.gms(1989) 7 Mb
+---   244 rows  272 columns  1,443 non-zeroes
+---   731 nl-code  243 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 2.100E+01] - Zero values observed as well
+--- Bound     [min, max] : [        NA,        NA]
+--- Matrix    [min, max] : [ 8.418E-04, 6.399E+02]
+--- finalproject.gms(1989) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.116
+
+CONOPT 3         41.2.0 5110e5ff Nov 14, 2022          DEG x86 64bit/macOS    
+
+ 
+ 
+    C O N O P T 3   version 3.17N
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.3044512180E+02 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  244
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    910.162409182
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      6   4        7.2825375161E+02 5.6E+01    28 1.0E+00    2 F  T
+     11   4        4.7732676597E+02 7.8E-08    28
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model camp31
+--- Executing after solve: elapsed 0:00:00.171
+--- finalproject.gms(1992) 5 Mb
+--- Generating QCP model camp32
+--- finalproject.gms(1999) 7 Mb
+---   244 rows  296 columns  1,443 non-zeroes
+---   731 nl-code  243 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 2.100E+01] - Zero values observed as well
+--- Bound     [min, max] : [        NA,        NA]
+--- Matrix    [min, max] : [ 8.418E-04, 6.399E+02]
+--- finalproject.gms(1999) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.180
+
+CONOPT 3         41.2.0 5110e5ff Nov 14, 2022          DEG x86 64bit/macOS    
+
+ 
+ 
+    C O N O P T 3   version 3.17N
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.8590168880E+02 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  244
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    1707.95160796
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      6   4        5.6731903098E+02 6.5E+01    52 1.0E+00    6 F  T
+     11   4        4.5465535421E+02 6.0E-08    52
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model camp32
+--- Executing after solve: elapsed 0:00:00.227
+--- finalproject.gms(2002) 5 Mb
+--- Generating QCP model camp33
+--- finalproject.gms(2009) 7 Mb
+---   244 rows  295 columns  1,443 non-zeroes
+---   731 nl-code  243 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 2.100E+01] - Zero values observed as well
+--- Bound     [min, max] : [        NA,        NA]
+--- Matrix    [min, max] : [ 9.938E-16, 6.399E+02]
+--- finalproject.gms(2009) 5 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.235
+
+CONOPT 3         41.2.0 5110e5ff Nov 14, 2022          DEG x86 64bit/macOS    
+
+ 
+ 
+    C O N O P T 3   version 3.17N
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        3.8632540075E+02 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  244
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    1638.51018966
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      6   4        6.3255853055E+02 8.8E+01    51 1.0E+00    5 F  T
+     11   4        4.5568611889E+02 3.4E-08    51
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model camp33
+*** Status: Normal completion
+--- Job finalproject.gms Stop 12/18/22 00:41:53 elapsed 0:00:00.283

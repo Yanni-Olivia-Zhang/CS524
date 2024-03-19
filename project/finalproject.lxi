@@ -1,0 +1,62 @@
+B 3 C o m p i l a t i o n
+B 2009 Include File Summary
+B 2024 Equation Listing    SOLVE camp3all Using QCP From line 1979
+D 2027 objdef3all
+D 2032 rdef3all
+B 2044 Column Listing      SOLVE camp3all Using QCP From line 1979
+E 2047 X3all
+E 2772 r3
+E 2791 obj
+B 2799 Range Statistics    SOLVE camp3all Using QCP From line 1979
+B 2810 Model Statistics    SOLVE camp3all Using QCP From line 1979
+B 2824 Solution Report     SOLVE camp3all Using QCP From line 1979
+F 2866 objdef3all
+F 2868 rdef3all
+G 3116 X3all
+G 3124 r3
+G 3374 obj
+B 3383 Equation Listing    SOLVE camp31 Using QCP From line 1989
+D 3386 objdef3all
+D 3391 rdef31
+B 3403 Column Listing      SOLVE camp31 Using QCP From line 1989
+E 3406 r3
+E 3425 obj
+E 3432 X31
+B 4159 Range Statistics    SOLVE camp31 Using QCP From line 1989
+B 4170 Model Statistics    SOLVE camp31 Using QCP From line 1989
+B 4184 Solution Report     SOLVE camp31 Using QCP From line 1989
+F 4232 objdef3all
+F 4234 rdef31
+G 4482 r3
+G 4732 obj
+G 4734 X31
+B 4774 Equation Listing    SOLVE camp32 Using QCP From line 1999
+D 4777 objdef3all
+D 4782 rdef32
+B 4794 Column Listing      SOLVE camp32 Using QCP From line 1999
+E 4797 r3
+E 4816 obj
+E 4823 X32
+B 5550 Range Statistics    SOLVE camp32 Using QCP From line 1999
+B 5561 Model Statistics    SOLVE camp32 Using QCP From line 1999
+B 5575 Solution Report     SOLVE camp32 Using QCP From line 1999
+F 5623 objdef3all
+F 5625 rdef32
+G 5873 r3
+G 6123 obj
+G 6125 X32
+B 6189 Equation Listing    SOLVE camp33 Using QCP From line 2009
+D 6192 objdef3all
+D 6197 rdef33
+B 6209 Column Listing      SOLVE camp33 Using QCP From line 2009
+E 6212 r3
+E 6231 obj
+E 6238 X33
+B 6965 Range Statistics    SOLVE camp33 Using QCP From line 2009
+B 6976 Model Statistics    SOLVE camp33 Using QCP From line 2009
+B 6990 Solution Report     SOLVE camp33 Using QCP From line 2009
+F 7038 objdef3all
+F 7040 rdef33
+G 7288 r3
+G 7538 obj
+G 7540 X33
